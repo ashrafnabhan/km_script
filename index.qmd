@@ -1,0 +1,117 @@
+# Authors
+
+Mourad Elfaham^1^, Aya Attia^1^, Sara Abdelkader^2\*^, Mohammed Ghanem^2^, Ahmed Azab^2^, Nour Atif^2^, Ashraf Nabhan^1,3^
+
+# Affiliation
+
+^1^ Faculty of Medicine, Ain Shams University, Cairo, Egypt.
+
+^2^ Faculty of Medicine, Galala University, Attaka, Suez, Egypt.
+
+^3^ Faculty of Medicine, MTI University, Cairo, Egypt.
+
+\* Corresponding author: Rahma AbdelHafez. Faculty of Medicine, Galala University, Attaka, Suez, Egypt. Email: rahma.abdelhafez\@gu.edu.eg. ORCID: 0009-0009-2662-9863
+
+Word count: 2500
+
+# Abstract
+
+Klippel–Trenaunay syndrome (KTS) is a rare congenital vascular disorder that may be complicated by Kasabach Merritt syndrome, posing significant maternal and fetal risks during pregnancy.
+
+We report the case of a 28-year-old pregnant woman with known Klippel–Trenaunay syndrome who developed Kasabach–Merritt phenomenon during pregnancy. The pregnancy was complicated by severe fetal growth restriction (FGR) and absent end-diastolic flow on umbilical artery Doppler. A cesarean section was performed at 35 weeks of gestation. A growth-restricted neonate was delivered and managed accordingly.
+
+This case highlights the complexity of managing pregnancy in patients with KTS complicated by KMP and emphasizes the importance of multidisciplinary surveillance and timely delivery.
+
+Keywords: Klippel–Trenaunay syndrome; angioosteohypertrophy syndrome; Kasabach Merritt syndrome; fetal growth restriction; high-risk pregnancy
+
+# Introduction
+
+Angioosteohypertrophy syndrome, also known as Klippel–Trenaunay syndrome (KTS), is a rare congenital disorder characterized by capillary malformations, venous abnormalities, and limb hypertrophy. Pregnancy in women with KTS is uncommon and associated with increased risks, including thromboembolic events, hemorrhage, and consumptive coagulopathy. Kasabach–Merritt phenomenon (KMP), a severe complication involving thrombocytopenia and coagulopathy due to vascular lesions, further increases maternal and fetal morbidity.
+
+Fetal growth restriction (FGR) with abnormal umbilical artery Doppler findings, such as absent end-diastolic flow, reflects placental insufficiency and is associated with adverse perinatal outcomes. We report a rare case of pregnancy complicated by KTS and KMP resulting in severe FGR requiring preterm cesarean delivery.
+
+# Case Presentation
+
+A 28-year-old multigravida woman (G3, P2) presented at 35 weeks' gestation for antenatal evaluation. She had a known diagnosis of Klippel–Trenaunay syndrome involving \[affected limb/region\], diagnosed at \[age/year\].
+
+Maternal Clinical Findings
+
+• Blood pressure: \[value\]
+
+• Presence of vascular malformations: \[description\]
+
+• Symptoms suggestive of KMP: \[e.g., bruising, bleeding, pain\]
+
+Laboratory investigations revealed:
+
+• Platelet count: \[value\]
+
+• Fibrinogen: \[value\]
+
+• D-dimer: \[value\]
+
+These findings were consistent with Kasabach–Merritt phenomenon.
+
+Fetal Assessment
+
+Ultrasound examination at \[gestational age\] weeks demonstrated:
+
+• Estimated fetal weight below the \[percentile\]
+
+• Abnormal umbilical artery Doppler with absent end-diastolic blood flow • Amniotic fluid index: \[value\]
+
+Based on worsening fetal Doppler parameters and maternal risks, a multidisciplinary team involving obstetrics, hematology, anesthesia, and neonatology recommended delivery.
+
+Delivery and Neonatal Outcome
+
+A cesarean section was performed at 35 weeks of gestation under \[type of anesthesia\]. A female/male neonate weighing \[birth weight\] g was delivered with Apgar scores of \[values\] at 1 and 5 minutes.
+
+The neonate required \[NICU admission / respiratory support / observation\]. Maternal postoperative recovery was \[uneventful/complicated by…\].
+
+Maternal admission to ICU
+
+\[course in details\]
+
+# Discussion
+
+Pregnancy complicated by Klippel–Trenaunay syndrome presents significant obstetric challenges due to altered vascular dynamics and increased risk of bleeding and thrombosis. The presence of Kasabach–Merritt phenomenon further complicates management, as consumptive coagulopathy may worsen during pregnancy.
+
+Severe fetal growth restriction with absent end-diastolic flow is associated with increased perinatal morbidity and mortality and often necessitates preterm delivery. In this case, close fetal surveillance and coordinated multidisciplinary care enabled timely intervention.
+
+Only a limited number of similar cases have been reported in the literature, underscoring the rarity of this condition. This case contributes to existing knowledge by highlighting the perinatal implications of combined KTS and KMP and emphasizes the importance of individualized management in tertiary care settings.
+
+# Conclusion
+
+Pregnancy in women with Klippel–Trenaunay syndrome complicated by Kasabach–Merritt phenomenon is rare and high risk. Intensive antenatal surveillance and multidisciplinary management are essential to optimize maternal and perinatal outcomes.
+
+# Declarations
+
+## Ethics approval and consent to participate
+
+Not applicable.
+
+## Consent for publication
+
+A written consent for publication has been obtained from the patient.
+
+## Availability of data and materials
+
+The data and materials supporting the conclusions of this article are available as a supplementary materials.
+
+## Competing interests
+
+The authors declare that they have no competing interests.
+
+## Funding
+
+This research received no specific grant from any funding agency in the public, commercial or not-for-profit sectors.
+
+## Authors' contributions
+
+SIA, ME, AFN contributed to writing the first draft of the manuscript. All the authors revised the manuscript critically for important intellectual content. All authors approved the final version of the manuscript.
+
+## Acknowledgements
+
+We sincerely thank the healthcare providers at Ain Shams University Hospital of Obstetrics and Gynecology for their dedication and commitment to patient care in the operating room. We deeply appreciate their contributions and the valuable role they play in ensuring high-quality surgical care.
+
+# References
