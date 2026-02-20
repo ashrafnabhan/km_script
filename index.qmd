@@ -26,8 +26,6 @@ Keywords: Klippel–Trenaunay syndrome; angioosteohypertrophy syndrome; Kasabach
 
 # Introduction
 
-is a rare genetic syndrome characterized by localized hemangiomas, venous varicosities, and asymmetric osseous hypertrophy of the ipsilateral extremities.
-
 Klippel-Trenaunay syndrome (KTS) is a rare genetic syndrome characterized by localized cutaneous hemangiomas, venous varicosities, and asymmetric osseous hypertrophy of the ipsilateral extremities. Complications at delivery can include disseminated intravascular coagulation (DIC) and massive hemorrhage.
 
 Coagulopathic events may be due to persistent blood loss or may reflect the development of Kasabach-Merritt syndrome (KMS). First reported in 1940, this syndrome has been described most commonly in children; it is defined by thrombocytopenia of varying degrees and a consumptive coagulopathy seen in association with hemangiomas. A microangiopathic hemolytic anemia may also be present.
