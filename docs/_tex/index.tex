@@ -93,6 +93,39 @@
 \makeatother
 
 
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 
 
@@ -222,22 +255,23 @@ Kasabach Merritt syndrome; fetal growth restriction; high-risk pregnancy
 Klippel-Trenaunay syndrome (KTS) is a rare genetic syndrome
 characterized by localized cutaneous hemangiomas, venous varicosities,
 and asymmetric osseous hypertrophy of the ipsilateral extremities.
-Complications at delivery can include disseminated intravascular
-coagulation (DIC) and massive hemorrhage.
+{[}1{]}
 
-Coagulopathic events may be due to persistent blood loss or may reflect
-the development of Kasabach-Merritt syndrome (KMS). First reported in
-1940, this syndrome has been described most commonly in children; it is
-defined by thrombocytopenia of varying degrees and a consumptive
-coagulopathy seen in association with hemangiomas. A microangiopathic
-hemolytic anemia may also be present.
+Complications at delivery can include disseminated intravascular
+coagulation (DIC) and massive hemorrhage. Coagulopathic events may be
+due to persistent blood loss or may reflect the development of
+Kasabach-Merritt syndrome (KMS). KMS is defined by thrombocytopenia of
+varying degrees and a consumptive coagulopathy seen in association with
+hemangiomas. A microangiopathic hemolytic anemia may also be present.
+{[}2{]}
 
 Fetal growth restriction (FGR) with abnormal umbilical artery Doppler
 findings, such as absent end-diastolic flow, reflects placental
-insufficiency and is associated with adverse perinatal outcomes.
+insufficiency and is associated with adverse perinatal outcomes. {[}3{]}
 
 The occurrence of KTS complicated by KMS during pregnancy is extremely
-rare, and, to our knowledge, only one case has been reported.
+rare, and, to our knowledge, only two cases have been reported.
+{[}4,5{]}
 
 \section{Case Presentation}\label{case-presentation}
 
@@ -292,18 +326,17 @@ Maternal admission to ICU
 
 \section{Discussion}\label{discussion}
 
-KTS, first described in 1900, is defined as a triad of clinical
-features, including unilateral cutaneous hemangiomas, varicose veins,
-soft tissue, and asymmetric osseous hypertrophy of the ipsilateral
-extremities. Additionally, cases may have arteriovenous fistulae. A
-review KTS indicates a consistent absence or major atresia of the deep
-venous vascular system, causing limb elongation, venous stasis,
-varicosities, and edema. The etiology of KTS may reflect a mesodermal
-defect operative at angiogenesis and therefore explain the vascular
-abnormalities that define the syndrome. Complications in the affected
-extremity may include stasis dermatitis, skin ulceration, and recurrent
-hemarthrosis-all of which may require amputation of the limb for
-management.
+KTS is defined as a triad of clinical features, including unilateral
+cutaneous hemangiomas, varicose veins, soft tissue, and asymmetric
+osseous hypertrophy of the ipsilateral extremities. Cases may also have
+arteriovenous fistulae. A review KTS indicates a consistent absence or
+major atresia of the deep venous vascular system, causing limb
+elongation, venous stasis, varicosities, and edema. The etiology of KTS
+may reflect a mesodermal defect operative at angiogenesis and therefore
+explain the vascular abnormalities that define the syndrome.
+Complications in the affected extremity may include stasis dermatitis,
+skin ulceration, and recurrent hemarthrosis-all of which may require
+amputation of the limb for management.
 
 Our patient's refractory coagulopathy prompted the diagnostic
 consideration of KMS. First reported in 1940, the syndrome consists of
@@ -373,7 +406,43 @@ commitment to patient care in the operating room. We deeply appreciate
 their contributions and the valuable role they play in ensuring
 high-quality surgical care.
 
-\section{References}\label{references}
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{0}{1}
+\bibitem[\citeproctext]{ref-Pavone2023}
+1. Pavone P, Marino L, Cacciaguerra G, Di Nora A, Parano E, Musumeci G,
+et al. \href{https://doi.org/10.3390/children10081421}{Klippel-trenaunay
+syndrome, segmental/focal overgrowth malformations: A review}. Children
+(Basel). 2023;10:1421.
+
+\bibitem[\citeproctext]{ref-Tian2026}
+2. Tian Y, Yuan Y, Wei L, Xu Z, Li L, Li L.
+\href{https://doi.org/10.1002/ped4.70041}{Kaposiform
+hemangioendothelioma: Diagnosis and treatment}. Pediatric Investigation.
+2026;
+
+\bibitem[\citeproctext]{ref-Akay2025}
+3. Akay E, Uzun Gül AD, Türkoğlu A.
+\href{https://doi.org/10.1186/s12884-025-07540-0}{Recurrent preeclampsia
+in a pregnant woman with klippel-trenaunay syndrome: Two cesarean
+deliveries and multiple extremity involvement -- case report and
+literature review}. BMC Pregnancy and Childbirth. 2025;25:407.
+
+\bibitem[\citeproctext]{ref-Neubert1995}
+4. Neubert GA, Golden MA, Rose NC.
+\href{https://doi.org/10.1016/0029-7844(94)00349-I}{Kasabach-merritt
+coagulopathy complicating klippel-trenaunay-weber syndrome in
+pregnancy}. Obstetrics \& Gynecology. 1995;85:831--3.
+
+\bibitem[\citeproctext]{ref-Kanmani2021}
+5. Kanmani K, Meena M, Narmadha D, A. GV.
+\href{https://doi.org/10.18203/2320-1770.ijrcog20211511}{Klippel
+trenaunay syndrome--an obstetric challenge}. International Journal of
+Reproduction, Contraception, Obstetrics and Gynecology. 2021;10:2081--4.
+
+\end{CSLReferences}
 
 
 
